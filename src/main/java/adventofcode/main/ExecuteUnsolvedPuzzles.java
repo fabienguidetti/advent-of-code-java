@@ -11,7 +11,7 @@ import adventofcode.common.PuzzleInput;
 public class ExecuteUnsolvedPuzzles {
 
     public static void main(String[] args) {
-        for (int year = 15; year <= 20; year++)
+        for (int year = 15; year <= 21; year++)
             for (int day = 1; day <= 25; day++)
                 for (int number = 1; number <= 2; number++)
                     executeIfUnsolved(year, day, number);
